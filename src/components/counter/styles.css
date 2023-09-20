@@ -1,0 +1,20 @@
+.counter {
+    display: flex;
+    align-items: start;
+}
+ 
+.counter input {
+    background: #dde3e9;
+    border: 1px solid #2f3676;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 8px;
+    width: 60px;
+    padding: 9px;
+    text-align: center;
+}
+
+.counter img {
+    cursor: pointer;
+}

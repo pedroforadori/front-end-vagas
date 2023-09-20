@@ -79,20 +79,6 @@ body {
   padding: 0 32px;
 }
 
-.counter svg {
-  fill: #2f3676;
-}
-
-.counter input {
-  background: #dde3e9;
-  border: 1px solid #2f3676;
-  border-radius: 7px;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0 8px;
-  width: 60px;
-}
-
 .footer {
   padding: 32px;
   background: #dde3e9;
@@ -100,21 +86,3 @@ body {
   justify-content: flex-end;
 }
 
-.footer button {
-  appearance: none;
-  background: #2f3676;
-  border: 0;
-  border-radius: 8px;
-  color: #fff;
-  padding: 10px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 8px 32px;
-}
-
-.footer button:focus,
-.footer button:hover {
-  border: 2px solid #2f3676;
-  background: #191847;
-}
