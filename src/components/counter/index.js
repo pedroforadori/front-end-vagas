@@ -20,7 +20,7 @@ export default function Counter() {
             <img 
                 src={valueSticker === 0 ? MinusDisable : Minus} 
                 alt="Minus SVG" 
-                onClick={handleMinus}
+                onClick={valueSticker > 0 ? handleMinus : undefined}
             />
             <input 
                 type="text" 
