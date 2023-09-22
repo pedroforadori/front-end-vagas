@@ -11,10 +11,17 @@ button {
     font-weight: bold;
     padding: 8px 32px;
     border: 2px solid #2F3676;
+    cursor: pointer;
   }
   
 button:focus,
 button:hover {
     border: 2px solid #2f3676;
     background: #191847;
-  }
+}
+
+button:disabled{
+  border: 2px solid #555;
+  background: #C5CFD6;
+  color: #555;
+}

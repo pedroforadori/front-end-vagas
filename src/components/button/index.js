@@ -1,8 +1,11 @@
 import React from "react"
 import "./styles.css";
 
-export default function Button(props){
+export default function Button({text, disabled}){
     return(
-        <button>{props.text}</button>
+        <button 
+            disabled={disabled}>
+                {text}
+        </button>
     )
 }
